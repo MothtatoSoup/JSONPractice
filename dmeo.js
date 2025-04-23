@@ -97,3 +97,54 @@ console.log(jsonParseBB)
 //NO more COPY PASTE!!!
 // fetch()
 fetch("./person.json") //fetches the person.json file
+    .then(response => response.json()) // Tells that it is a json object
+    .then(value => console.log(value)) // logs the parsed json object
+
+// ieteradr thru an arsay of object s iwt fetch using for each
+fetch("bikini-bottom.json").then(response => response.json).then(values => value.forEach(element => { console.log(element.name)}))
+    .catch(error => console.log(error)) // Good  practace to errr catch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
